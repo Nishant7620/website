@@ -74,6 +74,7 @@ body {
 .buttons button {
     margin: 10px;
     font-size: 16px;
+    border: solid 2px black;
     border-radius: 30px;
     padding: 20px 35px;
     text-align: center;
@@ -89,4 +90,32 @@ body {
 
     background-color: rgb(33, 32, 32);
     color: aliceblue;
+}
+
+.about_us {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+.text_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sub_text {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.image {
+    margin-right: 300px;
+}
+
+.image img{
+    width: 25%;
 }
