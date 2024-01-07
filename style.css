@@ -18,6 +18,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
+ 
     
 }
 
@@ -47,16 +49,44 @@ body {
     background-attachment: fixed;
     background-size:100%; 
     backdrop-filter: blur(2px);  
+    
 }
 
 
 
-.text h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 643px;
-    font-size: 40px;
+.text {
+    text-align: center;
+    margin-top: 250px;
+    font-size: 30px;
+    z-index: 1;
+       
+}
 
+.text p {
+    font-size:  20px;
+}
+
+.buttons {
+    text-align: center;
+    padding: 20px;
+}
+
+.buttons button {
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 20px 35px;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    transition-duration: 0.5s;
     
+    
+}
+
+.buttons button:hover{
+
+
+    background-color: rgb(33, 32, 32);
+    color: aliceblue;
 }
