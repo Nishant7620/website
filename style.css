@@ -95,37 +95,50 @@ body {
 .about_us {
     background-color: aliceblue;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px
+    padding: 10px;
+    margin-top: 60px
     
 }
 
-.about_us h1{
-    margin-top: 20px;
+.about_us h1 {
+    margin-top: 50px;
+    font-size: 40px;
 }
-
 
 .text_image {
+    
+    
+    background-color:aliceblue;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: right;
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-top: 80px;
-  
+    justify-content: end;
     
+      
 }
 
-.sub_text {
+.about_us_text{
+    position: absolute;
+    margin-right: 565px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: end;
     
-    
+}   
+
+.image{
+    text-align: end;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 150px;
+
 }
 
-.image {
-    
+.image img {
+    width: 30%;
 }
 
-.image img{
-    width:  35%;
-}
+    
+
+
+   
+    
+    
