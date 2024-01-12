@@ -136,9 +136,58 @@ body {
     width: 30%;
 }
 
-    
+.crausal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DCF2F1;
+}    
 
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ;
+    margin-top: 50px;
 
    
     
+}
+
+.card1  img{
+   width: 320px;
+   height: 400px;
+   padding: 10px;
+   margin: 10px;
+   margin-left: 20px;
+   
+}
+
+.card2  img{
+    width: 320px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+ 
+ }
+   
+ .card3  img{
+    width: 320px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+ 
+ }    
     
+ .card4  img{
+    width: 320px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 20px;
+ 
+ }
+
+ .card1 {
+   
+ }
