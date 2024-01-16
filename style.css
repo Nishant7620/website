@@ -191,27 +191,85 @@ body {
  .card1 {
    
  }
+ .how_we_work {
+    background-color: #43766C;
+ }
+.how_we_work_text{
 
+    padding-top: 60px;  
+}
 .how_we_work_text h1,p{
     
     text-align: center;
+  
 }
+
+
 
 .group_3 {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
+    margin-top: 40px;   
 }
 
-.contact_us {
-    border: 2px solid red;
-    width: 200px;
+.group_3 h3 {
+    font-size: 20px;
 }
+.contact_us {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 240px;
+    height: 200px;
+    
+    
+}
+
+.contact_us:hover{
+    background-color: rgba(31, 30, 30, 0.4);
+    width: 240px;
+    height: 200px;
+    transition: 0.5s;
+    
+}
+
 
 .make_your_design {
-    border: 2px solid red;
+    background-color: rgba(255, 255, 255, 0.4);
+   
+    width: 240px;
+    height: 200px;
+}
+
+.make_your_design:hover {
+    background-color: rgba(31, 30, 30, 0.4); 
+    width: 240px;
+    height: 200px;
+    transition: 0.5s;
 }
 
 .reuild_design {
-    border: 2px solid red;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 240px;
+    height: 200px;
+}
+.reuild_design:hover {
+    background-color: rgba(31, 30, 30, 0.4); 
+    width: 240px;
+    height: 200px;
+    transition: 0.5s;
+}
+.contact_us h3 {
+   
+    text-align: center;
+    margin-top: 60px;
+}
+
+.make_your_design h3 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.reuild_design h3 {
+    text-align: center;
+    margin-top: 60px;
 }
