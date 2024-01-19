@@ -280,3 +280,36 @@ body {
     text-align: center;
     margin-top: 60px;
 }
+
+.showcase_1 {
+    width: 20%;
+    height: 30%;
+    
+}
+
+.showcase_2 {
+    width: 20%;
+    height: 30%;
+    padding: 40px;
+    margin-bottom: 100px;    
+}
+
+.showcase_1 img{
+    width: 250px;
+    height: 360px;
+}
+
+.showcase_2 img{
+    width: 250px;
+    height: 360px;
+}
+.showcase_text {
+    text-align: start;
+    align-items: end;
+}
+.combine_showcase {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+   margin-top: 60px;
+}
