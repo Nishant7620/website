@@ -281,6 +281,9 @@ body {
     margin-top: 60px;
 }
 
+.showcase {
+    background-color: #994D1C;
+}
 .showcase_1 {
     width: 20%;
     height: 30%;
@@ -304,8 +307,11 @@ body {
     height: 360px;
 }
 .showcase_text {
+    margin-left: 60px;
+    margin-bottom: 200px;
+}
+.showcase_text p {
     text-align: start;
-    align-items: end;
 }
 .combine_showcase {
     display: flex;
